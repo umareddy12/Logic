@@ -1,0 +1,21 @@
+
+//All numbers  from 100 to 0..Skipping 2 numbners
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i;
+     cout<<"All numbers from 100 to 0:"<<endl;
+    for(i=100;i>=0;i-=3)
+    //The i -= 3 decrements i by 3 in each iteration, effectively //skipping 2 numbers.
+    /* If you decrement by 1, it prints every number.
+If you decrement by 2, it prints every second number.
+If you decrement by 3, it prints every third number, effectively skipping 2 numbers.*/
+
+    {
+        
+       cout<<i<<endl;
+        
+    }
+    return 0;
+}
