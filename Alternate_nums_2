@@ -1,0 +1,16 @@
+
+//Alternate numbers  from 0 to 100i.e, 0,2,4,6,8,.....100
+#include <iostream>
+using namespace std;
+
+int main() {
+    int i;
+     cout<<"All numbers from 0 to 100:"<<endl;
+    for(i=0;i<=100;i++)
+    {
+        if(i%2==0){
+       cout<<i<<endl;
+        }
+    }
+    return 0;
+}
